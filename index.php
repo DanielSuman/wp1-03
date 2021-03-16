@@ -15,15 +15,15 @@
   // PI
   define('PI', 3.14);
   // obsah kruhu (S = PÍ r2)
-  $area = r * r * pi;
+  $area = r * r * PI;
 
   //Obvod kruhu o = 2 PÍ R
-  $circuit = PI + PI * r / 2;
+  $circuit = 2 * PI * $r;
 
     ?>
 
     <p>r = <?= $number1 ?> cm </p>
-<p>Obvod kruhu je <?= pi ?> + <?= pi ?> * <?= r ?> / <?= 2 ?> = <?= $circuit ?> cm </p>
-<p>Obsah kruhu je <?= r ?> * <?= r ?> * <?= pi ?> = <?= $area ?> cm </p>
+<p>Obvod kruhu je <?= PI ?> + <?= PI ?> * <?= $r ?> / <?= 2 ?> = <?= $circuit ?> cm </p>
+<p>Obsah kruhu je <?= $r ?> * <?= $r ?> * <?= pi ?> = <?= $area ?> cm </p>
 </body>
 </html>
